@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MyLogos)(type KiCad)(uri C:/Users/Chip/Documents/KiCad_Workspace/libraries/artwork)(options "")(descr ""))
+  (lib (name pi-top)(type KiCad)(uri C:/Users/Chip/Documents/KiCad_Workspace/libraries/ChipsFootprints.pretty)(options "")(descr ""))
+)

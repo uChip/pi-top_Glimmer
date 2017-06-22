@@ -1,0 +1,637 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74lv164
+LIBS:dmmt5401
+LIBS:7215
+LIBS:pi-top_Glimmer-cache
+EELAYER 26 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 2 2
+Title "pi-top Glimmer"
+Date "2017-06-17"
+Rev "1.0"
+Comp "C.Schnarel"
+Comment1 "Based on pi-top_Template board definition"
+Comment2 "Practice I2C Design & Programming"
+Comment3 "Visual Distraction, Voltage Monitor, IR Receiver"
+Comment4 "pi-top Accessory Buss Board"
+$EndDescr
+$Comp
+L CONN_02X17 J3
+U 1 1 59204958
+P 3350 4000
+F 0 "J3" H 3350 5015 50  0000 C CNN
+F 1 "CONN_02X17" H 3350 4924 50  0000 C CNN
+F 2 "pi-top:3M_951217-4620-XX" H 3350 2900 50  0001 C CNN
+F 3 "" H 3350 2900 50  0001 C CNN
+	1    3350 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 3200 0    39   UnSpc ~ 0
+HUB_PWR
+Text GLabel 3100 3300 0    39   UnSpc ~ 0
+HUB_3V3_PRST
+Text GLabel 3100 3500 0    39   UnSpc ~ 0
+SDA_BCM-2
+Text GLabel 3100 3600 0    39   UnSpc ~ 0
+GPCLK0-BCM-4
+Text GLabel 3100 3700 0    39   UnSpc ~ 0
+RXD_BCM-15
+Text GLabel 3100 3800 0    39   UnSpc ~ 0
+PCM_C_BCM-18
+Text GLabel 3100 3900 0    39   UnSpc ~ 0
+BCM-22
+Text GLabel 3100 4000 0    39   UnSpc ~ 0
+BCM-24
+Text GLabel 3100 4100 0    39   UnSpc ~ 0
+MISO_BCM-9
+Text GLabel 3100 4200 0    39   UnSpc ~ 0
+SCLK_BCM-11
+Text GLabel 3100 4300 0    39   UnSpc ~ 0
+CE1_BCM-7
+Text GLabel 3100 4400 0    39   UnSpc ~ 0
+ID_SC_BCM-1
+Text GLabel 3100 4500 0    39   UnSpc ~ 0
+BCM-6
+Text GLabel 3100 4600 0    39   UnSpc ~ 0
+BCM-13
+Text GLabel 3100 4700 0    39   UnSpc ~ 0
+BCM-16
+Text GLabel 3100 4800 0    39   UnSpc ~ 0
+MOSI_BCM-20
+Text GLabel 3600 3200 2    39   UnSpc ~ 0
+HUB_5V
+Text GLabel 3600 3300 2    39   UnSpc ~ 0
+HUB_3V3
+Text GLabel 3600 3400 2    39   UnSpc ~ 0
+SPDIF_OUT
+Text GLabel 3600 3500 2    39   UnSpc ~ 0
+SCL_BCM-3
+Text GLabel 3600 3600 2    39   UnSpc ~ 0
+TXD_BCM-14
+Text GLabel 3600 3700 2    39   UnSpc ~ 0
+BCM-17
+Text GLabel 3600 3800 2    39   UnSpc ~ 0
+PCM_D_BCM-27
+Text GLabel 3600 3900 2    39   UnSpc ~ 0
+BCM-23
+Text GLabel 3600 4000 2    39   UnSpc ~ 0
+MOSI_BCM-10
+Text GLabel 3600 4100 2    39   UnSpc ~ 0
+BCM-25
+Text GLabel 3600 4200 2    39   UnSpc ~ 0
+CE0_BCM-8
+Text GLabel 3600 4300 2    39   UnSpc ~ 0
+ID_SD_BCM-0
+Text GLabel 3600 4400 2    39   UnSpc ~ 0
+BCM-5
+Text GLabel 3600 4500 2    39   UnSpc ~ 0
+BCM-12
+Text GLabel 3600 4600 2    39   UnSpc ~ 0
+MISO_BCM-19
+Text GLabel 3600 4700 2    39   UnSpc ~ 0
+BCM-26
+Text GLabel 3600 4800 2    39   BiDi ~ 0
+SCLK_BCM-21
+Text Notes 3400 4950 2    39   ~ 0
+Pins
+$Comp
+L CONN_02X17 J5
+U 1 1 59204959
+P 7950 4000
+F 0 "J5" H 7950 5015 50  0000 C CNN
+F 1 "CONN_02X17" H 7950 4924 50  0000 C CNN
+F 2 "pi-top:Harwin_M22-6553442R" H 7950 2900 50  0001 C CNN
+F 3 "" H 7950 2900 50  0001 C CNN
+	1    7950 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 3200 0    39   UnSpc ~ 0
+HUB_PWR
+Text GLabel 7700 3300 0    39   UnSpc ~ 0
+HUB_3V3_PRST
+Text GLabel 7700 3500 0    39   UnSpc ~ 0
+SDA_BCM-2
+Text GLabel 7700 3600 0    39   UnSpc ~ 0
+GPCLK0-BCM-4
+Text GLabel 7700 3700 0    39   UnSpc ~ 0
+RXD_BCM-15
+Text GLabel 7700 3800 0    39   UnSpc ~ 0
+PCM_C_BCM-18
+Text GLabel 7700 3900 0    39   UnSpc ~ 0
+BCM-22
+Text GLabel 7700 4000 0    39   UnSpc ~ 0
+BCM-24
+Text GLabel 7700 4100 0    39   UnSpc ~ 0
+MISO_BCM-9
+Text GLabel 7700 4200 0    39   UnSpc ~ 0
+SCLK_BCM-11
+Text GLabel 7700 4300 0    39   UnSpc ~ 0
+CE1_BCM-7
+Text GLabel 7700 4400 0    39   UnSpc ~ 0
+ID_SC_BCM-1
+Text GLabel 7700 4500 0    39   UnSpc ~ 0
+BCM-6
+Text GLabel 7700 4600 0    39   UnSpc ~ 0
+BCM-13
+Text GLabel 7700 4700 0    39   UnSpc ~ 0
+BCM-16
+Text GLabel 7700 4800 0    39   UnSpc ~ 0
+MOSI_BCM-20
+Text GLabel 8200 3200 2    39   UnSpc ~ 0
+HUB_5V
+Text GLabel 8200 3300 2    39   UnSpc ~ 0
+HUB_3V3
+Text GLabel 8200 3400 2    39   UnSpc ~ 0
+SPDIF_OUT
+Text GLabel 8200 3500 2    39   UnSpc ~ 0
+SCL_BCM-3
+Text GLabel 8200 3600 2    39   UnSpc ~ 0
+TXD_BCM-14
+Text GLabel 8200 3700 2    39   UnSpc ~ 0
+BCM-17
+Text GLabel 8200 3800 2    39   UnSpc ~ 0
+PCM_D_BCM-27
+Text GLabel 8200 3900 2    39   UnSpc ~ 0
+BCM-23
+Text GLabel 8200 4000 2    39   UnSpc ~ 0
+MOSI_BCM-10
+Text GLabel 8200 4100 2    39   UnSpc ~ 0
+BCM-25
+Text GLabel 8200 4200 2    39   UnSpc ~ 0
+CE0_BCM-8
+Text GLabel 8200 4300 2    39   UnSpc ~ 0
+ID_SD_BCM-0
+Text GLabel 8200 4400 2    39   UnSpc ~ 0
+BCM-5
+Text GLabel 8200 4500 2    39   UnSpc ~ 0
+BCM-12
+Text GLabel 8200 4600 2    39   UnSpc ~ 0
+MISO_BCM-19
+Text GLabel 8200 4700 2    39   UnSpc ~ 0
+BCM-26
+Text GLabel 8200 4800 2    39   UnSpc ~ 0
+SCLK_BCM-21
+Text Notes 8050 4950 2    39   ~ 0
+Socket
+Text Notes 650  1050 0    79   ~ 0
+Notes:\nJ1 constructed from one 3M 951224-4620-AR-PR (Digi-Key 3M9210CT-ND) and one 3M 951210-4620-AR-PR (Digi-Key 3M9205CT-ND)\nJ2 constructed from one Harwin M22-6550542R (Digi-Key 952-3191-1-ND) and two Harwin M22-6550642R (Digi-Key 952-3192-1-ND)
+$Comp
+L TSOP382xx U5
+U 1 1 59249365
+P 8150 1850
+F 0 "U5" H 8137 2275 50  0000 C CNN
+F 1 "TSOP38238" H 8137 2184 50  0000 C CNN
+F 2 "Opto-Devices:IRReceiver_Vishay_MINICAST-3pin" H 8100 1475 50  0001 C CNN
+F 3 "" H 8800 2150 50  0000 C CNN
+	1    8150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5924943A
+P 8600 2100
+F 0 "#PWR030" H 8600 1850 50  0001 C CNN
+F 1 "GND" H 8605 1927 50  0000 C CNN
+F 2 "" H 8600 2100 50  0001 C CNN
+F 3 "" H 8600 2100 50  0001 C CNN
+	1    8600 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 1650 2    39   UnSpc ~ 0
++3V3
+$Comp
+L CONN_02X01 J6
+U 1 1 59249527
+P 8900 1850
+F 0 "J6" H 8900 1950 50  0000 C CNN
+F 1 "CONN_02X01" H 8900 1750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8900 650 50  0001 C CNN
+F 3 "" H 8900 650 50  0001 C CNN
+	1    8900 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 1850 2    39   UnSpc ~ 0
+BCM-17
+Wire Wire Line
+	8550 1850 8650 1850
+Wire Wire Line
+	8600 1650 8550 1650
+Wire Wire Line
+	8550 2050 8600 2050
+Wire Wire Line
+	8600 2050 8600 2100
+Wire Wire Line
+	3450 2250 3550 2250
+$Comp
+L Ferrite_Bead_Small L1
+U 1 1 592150DC
+P 3650 2250
+F 0 "L1" V 3600 2150 50  0000 C CNN
+F 1 "2.2uH" V 3800 2350 50  0000 C CNN
+F 2 "Inductors_SMD:L_0805_HandSoldering" V 3580 2250 50  0001 C CNN
+F 3 "" H 3650 2250 50  0001 C CNN
+	1    3650 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2250 4150 2250
+$Comp
+L +5V #PWR031
+U 1 1 59215121
+P 3800 2200
+F 0 "#PWR031" H 3800 2050 50  0001 C CNN
+F 1 "+5V" H 3815 2373 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2250 3800 2200
+Text GLabel 3450 2250 0    39   UnSpc ~ 0
+HUB_5V
+$Comp
+L R R3
+U 1 1 5921E758
+P 4800 3250
+F 0 "R3" H 4870 3296 50  0000 L CNN
+F 1 "4.48k" H 4870 3205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 3250 50  0001 C CNN
+F 3 "" H 4800 3250 50  0001 C CNN
+	1    4800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5921E818
+P 4800 3650
+F 0 "R4" H 4870 3696 50  0000 L CNN
+F 1 "715R" H 4870 3605 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4730 3650 50  0001 C CNN
+F 3 "" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5921E946
+P 5250 3250
+F 0 "R5" H 5320 3296 50  0000 L CNN
+F 1 "300R" H 5320 3205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5180 3250 50  0001 C CNN
+F 3 "" H 5250 3250 50  0001 C CNN
+	1    5250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5921E94C
+P 5250 3650
+F 0 "R6" H 5320 3696 50  0000 L CNN
+F 1 "3k" H 5320 3605 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5180 3650 50  0001 C CNN
+F 3 "" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5921E99C
+P 5650 3250
+F 0 "R7" H 5720 3296 50  0000 L CNN
+F 1 "2.2k" H 5720 3205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+	1    5650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5921E9A2
+P 5650 3650
+F 0 "R8" H 5720 3696 50  0000 L CNN
+F 1 "3.3k" H 5720 3605 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5580 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3400 4800 3500
+Wire Wire Line
+	4800 3450 4850 3450
+Connection ~ 4800 3450
+Wire Wire Line
+	5250 3400 5250 3500
+Wire Wire Line
+	5250 3450 5300 3450
+Connection ~ 5250 3450
+Wire Wire Line
+	5650 3400 5650 3500
+Wire Wire Line
+	5650 3450 5700 3450
+Connection ~ 5650 3450
+$Comp
+L GND #PWR032
+U 1 1 5921FCC8
+P 4800 3800
+F 0 "#PWR032" H 4800 3550 50  0001 C CNN
+F 1 "GND" H 4805 3627 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 5921FD03
+P 5250 3800
+F 0 "#PWR033" H 5250 3550 50  0001 C CNN
+F 1 "GND" H 5255 3627 50  0000 C CNN
+F 2 "" H 5250 3800 50  0001 C CNN
+F 3 "" H 5250 3800 50  0001 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5921FF9E
+P 5650 3800
+F 0 "#PWR034" H 5650 3550 50  0001 C CNN
+F 1 "GND" H 5655 3627 50  0000 C CNN
+F 2 "" H 5650 3800 50  0001 C CNN
+F 3 "" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 3050 0    39   UnSpc ~ 0
+HUB_5V
+Text GLabel 4700 3050 0    39   UnSpc ~ 0
+HUB_PWR
+Text GLabel 5150 3050 0    39   UnSpc ~ 0
+HUB_3V3
+Wire Wire Line
+	4700 3050 4800 3050
+Wire Wire Line
+	4800 3050 4800 3100
+Wire Wire Line
+	5150 3050 5250 3050
+Wire Wire Line
+	5250 3050 5250 3100
+Wire Wire Line
+	5550 3050 5650 3050
+Wire Wire Line
+	5650 3050 5650 3100
+Text GLabel 4850 3450 2    39   UnSpc ~ 0
+PWR_SENS
+Text GLabel 5300 3450 2    39   UnSpc ~ 0
+3V3_SENS
+Text GLabel 5700 3450 2    39   UnSpc ~ 0
+5V_SENS
+$Comp
+L CONN_02X20 J4
+U 1 1 5927A06A
+P 3350 6450
+F 0 "J4" H 3350 7615 50  0000 C CNN
+F 1 "CONN_02X20" H 3350 7524 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3350 5500 50  0001 C CNN
+F 3 "" H 3350 5500 50  0001 C CNN
+	1    3350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5927A120
+P 3100 5900
+F 0 "#PWR035" H 3100 5650 50  0001 C CNN
+F 1 "GND" V 3100 5700 50  0000 C CNN
+F 2 "" H 3100 5900 50  0001 C CNN
+F 3 "" H 3100 5900 50  0001 C CNN
+	1    3100 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 5927A1AF
+P 3100 6700
+F 0 "#PWR036" H 3100 6450 50  0001 C CNN
+F 1 "GND" V 3100 6500 50  0000 C CNN
+F 2 "" H 3100 6700 50  0001 C CNN
+F 3 "" H 3100 6700 50  0001 C CNN
+	1    3100 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 5927A1D2
+P 3100 7400
+F 0 "#PWR037" H 3100 7150 50  0001 C CNN
+F 1 "GND" V 3100 7200 50  0000 C CNN
+F 2 "" H 3100 7400 50  0001 C CNN
+F 3 "" H 3100 7400 50  0001 C CNN
+	1    3100 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 5927A1F5
+P 3600 6100
+F 0 "#PWR038" H 3600 5850 50  0001 C CNN
+F 1 "GND" V 3600 5900 50  0000 C CNN
+F 2 "" H 3600 6100 50  0001 C CNN
+F 3 "" H 3600 6100 50  0001 C CNN
+	1    3600 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 5927A230
+P 3600 6400
+F 0 "#PWR039" H 3600 6150 50  0001 C CNN
+F 1 "GND" V 3600 6200 50  0000 C CNN
+F 2 "" H 3600 6400 50  0001 C CNN
+F 3 "" H 3600 6400 50  0001 C CNN
+	1    3600 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 5927A253
+P 3600 6900
+F 0 "#PWR040" H 3600 6650 50  0001 C CNN
+F 1 "GND" V 3600 6700 50  0000 C CNN
+F 2 "" H 3600 6900 50  0001 C CNN
+F 3 "" H 3600 6900 50  0001 C CNN
+	1    3600 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 5927A276
+P 3600 7100
+F 0 "#PWR041" H 3600 6850 50  0001 C CNN
+F 1 "GND" V 3600 6900 50  0000 C CNN
+F 2 "" H 3600 7100 50  0001 C CNN
+F 3 "" H 3600 7100 50  0001 C CNN
+	1    3600 7100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3600 5500 2    39   UnSpc ~ 0
+HUB_5V
+Text GLabel 3600 5600 2    39   UnSpc ~ 0
+HUB_5V
+$Comp
+L GND #PWR042
+U 1 1 5927A643
+P 3600 5700
+F 0 "#PWR042" H 3600 5450 50  0001 C CNN
+F 1 "GND" V 3600 5500 50  0000 C CNN
+F 2 "" H 3600 5700 50  0001 C CNN
+F 3 "" H 3600 5700 50  0001 C CNN
+	1    3600 5700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3100 5500 0    39   UnSpc ~ 0
++3V3
+Text GLabel 3100 5600 0    39   UnSpc ~ 0
+SDA_BCM-2
+Text GLabel 3100 5700 0    39   UnSpc ~ 0
+SCL_BCM-3
+Text GLabel 3100 5800 0    39   UnSpc ~ 0
+GPCLK0-BCM-4
+Text GLabel 3100 6000 0    39   UnSpc ~ 0
+BCM-17
+Text GLabel 3100 6100 0    39   UnSpc ~ 0
+PCM_D_BCM-27
+Text GLabel 3100 6400 0    39   UnSpc ~ 0
+MOSI_BCM-10
+Text GLabel 3100 6200 0    39   UnSpc ~ 0
+BCM-22
+Text GLabel 3100 6300 0    39   UnSpc ~ 0
++3V3
+Text GLabel 3100 6500 0    39   UnSpc ~ 0
+MISO_BCM-9
+Text GLabel 3100 6600 0    39   UnSpc ~ 0
+SCLK_BCM-11
+Text GLabel 3100 6800 0    39   UnSpc ~ 0
+ID_SD_BCM-0
+Text GLabel 3100 6900 0    39   UnSpc ~ 0
+BCM-5
+Text GLabel 3100 7000 0    39   UnSpc ~ 0
+BCM-6
+Text GLabel 3100 7100 0    39   UnSpc ~ 0
+BCM-13
+Text GLabel 3100 7200 0    39   UnSpc ~ 0
+MISO_BCM-19
+Text GLabel 3100 7300 0    39   UnSpc ~ 0
+BCM-26
+Text GLabel 3600 5800 2    39   UnSpc ~ 0
+TXD_BCM-14
+Text GLabel 3600 5900 2    39   UnSpc ~ 0
+RXD_BCM-15
+Text GLabel 3600 6000 2    39   UnSpc ~ 0
+PCM_C_BCM-18
+Text GLabel 3600 6200 2    39   UnSpc ~ 0
+BCM-23
+Text GLabel 3600 6300 2    39   UnSpc ~ 0
+BCM-24
+Text GLabel 3600 6500 2    39   UnSpc ~ 0
+BCM-25
+Text GLabel 3600 6600 2    39   UnSpc ~ 0
+CE0_BCM-8
+Text GLabel 3600 6700 2    39   UnSpc ~ 0
+CE1_BCM-7
+Text GLabel 3600 6800 2    39   UnSpc ~ 0
+ID_SC_BCM-1
+Text GLabel 3600 7000 2    39   UnSpc ~ 0
+BCM-12
+Text GLabel 3600 7200 2    39   UnSpc ~ 0
+BCM-16
+Text GLabel 3600 7300 2    39   UnSpc ~ 0
+MOSI_BCM-20
+Text GLabel 3600 7400 2    39   UnSpc ~ 0
+SCLK_BCM-21
+$Comp
+L GND #PWR043
+U 1 1 5927BE2A
+P 2300 3450
+F 0 "#PWR043" H 2300 3200 50  0001 C CNN
+F 1 "GND" H 2300 3300 50  0000 C CNN
+F 2 "" H 2300 3450 50  0001 C CNN
+F 3 "" H 2300 3450 50  0001 C CNN
+	1    2300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 5927C2AC
+P 7700 3400
+F 0 "#PWR044" H 7700 3150 50  0001 C CNN
+F 1 "GND" V 7700 3200 50  0000 C CNN
+F 2 "" H 7700 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG045
+U 1 1 59284D76
+P 4150 2200
+F 0 "#FLG045" H 4150 2275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 2374 50  0000 C CNN
+F 2 "" H 4150 2200 50  0001 C CNN
+F 3 "" H 4150 2200 50  0001 C CNN
+	1    4150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2250 4150 2200
+Connection ~ 3800 2250
+$Comp
+L PWR_FLAG #FLG046
+U 1 1 59285C96
+P 2300 3350
+F 0 "#FLG046" H 2300 3425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 3524 50  0000 C CNN
+F 2 "" H 2300 3350 50  0001 C CNN
+F 3 "" H 2300 3350 50  0001 C CNN
+	1    2300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3400 2300 3400
+Wire Wire Line
+	2300 3350 2300 3450
+Connection ~ 2300 3400
+$EndSCHEMATC
