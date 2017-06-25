@@ -3,10 +3,10 @@ pi-top_Glimmer
 
 <img src="https://github.com/uChip/pi-top_Glimmer/blob/master/pi-top_Glimmer_front.png" alt="Accessory board for pi-top laptop or pi-topCEED" height="308" width="365">  
 NOTE: This project is a work in progress and is subject to change.  See the Status section for recent changes.  
- 
+
 This repository contains the design files and write-up for pi-top_Glimmer.  
 
-Note: I have no affiliation with pi-top other than being a customer.   
+Note: I have no affiliation with pi-top other than being a customer.  
 
 The pi-top Glimmer is an accessory board for the [pi-topCEED](https://pi-top.com/product/ceed).  It also fits the pi-top laptop.  The board reconstitutes the Raspberry Pi GPIO connector. Unlike the [pi-topPROTO](https://pi-top.com/buy/addon) the Glimmer places the connector optimally for connecting the ["T-Cobbler Plus - GPIO Breakout"](https://www.adafruit.com/product/2028) or the ["Pi Wedge"](https://www.sparkfun.com/products/13717).  
 
@@ -16,7 +16,7 @@ The board includes support for an IR Receiver (TSOP38238 or similar) for IR remo
 
 The pi-top Glimmer passes the accessory buss through to the other end of the board so that the pi-topSPEAKER or other accessories can be plugged in.  An effort has been made to use a minimum of Raspberry Pi GPIO resources so that as many HATs as possible will still work.  The pi-top HUB board commits GPIO's 7, 9,10 & 11 as the SPI buss with HUB board select on GPIO 7 (CE1_N).  To this the pi-top Glimmer uses GPIOs 2 & 3 as the I2C buss (sharable with other boards) and resides at I2C address 110.  The following are optionally connected via solder jumpers.
 * IR Receiver to GPIO 24 (pin 18)
-* ATMega serial to GPIO Serial Console (GPIOS 14 & 15) 
+* ATMega serial to RPi GPIO Serial Console (GPIOS 14 & 15) 
 
 Finally, the board includes an 8x8 LED (single color on/off) array that is refreshed from the Arduino and commanded from the pi-top's Raspberry Pi.  
 
@@ -24,7 +24,7 @@ The software folder contains a "sketch" that is source code for the Arduino whic
 
 The board is built using a combination of through-hole and (larger scale) surface mount technologies and is reasonably easy to hand assemble. I created this board for a number of reasons; to more easily enable prototyping on the pi-top, to learn more about the pi-top's accessory buss, to experiment with I2C on both RPi and Arduino, to teach myself KiCad, and to enable future projects I have in mind.  
 
-I did it as a one off, but it seems to have some utility for classroom scenarios.  If there is interest I would be willing to make a manufacturing run of these as a product.  
+I did it as a one off, but it seems to have some utility for classroom scenarios.  If there is interest I would be willing to make a manufacturing run of the pi-top Glimmer as a product.  
 
 ## Order PCBs  
 
