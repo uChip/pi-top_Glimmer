@@ -23,9 +23,9 @@ I did it as a one off, but it seems to have some utility for classroom scenarios
 You can order this PCB directly from OSH Park.  Click on the following link.  
   * pi-top Glimmer - https://oshpark.com/shared_projects/aFUNW4O5 
 
-<img src="https://raw.githubusercontent.com/uChip/VoltageReferenceProgrammable/master/RevDtop.png" alt="PCB Top" height="287" width="550">
+<img src="https://github.com/uChip/pi-top_Glimmer/blob/master/Top.png" alt="PCB Top" height="431" width="500">
 
-<img src="https://raw.githubusercontent.com/uChip/VoltageReferenceProgrammable/master/RevDbottom.png" alt="PCB Bottom" height="287" width="550">
+<img src="https://github.com/uChip/pi-top_Glimmer/blob/master/Bottom.png" alt="PCB Bottom" height="431" width="500">
 
 See the Bill of Materials (BOM) file in the repo Hardware folder for a parts list.  
 
