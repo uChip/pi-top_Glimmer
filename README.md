@@ -4,7 +4,7 @@ pi-top_Glimmer
 <img src="https://github.com/uChip/pi-top_Glimmer/blob/master/pi-top_Glimmer_front.png" alt="Accessory board for pi-top laptop or pi-topCEED" height="308" width="365">  
 This repository contains the design files and write-up for pi-top_Glimmer.  
 
-The pi-top Glimmer is an accessory board for the [pi-topCEED] (https://pi-top.com/product/ceed).  It also fits the pi-top laptop.  The board reconstitutes the Raspberry Pi GPIO connector. Unlike the [pi-topPROTO] (https://pi-top.com/buy/addon) the Glimmer places the connector optimally for connecting the ["T-Cobbler Plus - GPIO Breakout"] (https://www.adafruit.com/product/2028) or the ["Pi Wedge"] (https://www.sparkfun.com/products/13717).
+The pi-top Glimmer is an accessory board for the [pi-topCEED](https://pi-top.com/product/ceed).  It also fits the pi-top laptop.  The board reconstitutes the Raspberry Pi GPIO connector. Unlike the [pi-topPROTO](https://pi-top.com/buy/addon) the Glimmer places the connector optimally for connecting the ["T-Cobbler Plus - GPIO Breakout"](https://www.adafruit.com/product/2028) or the ["Pi Wedge"](https://www.sparkfun.com/products/13717).
 
 <picture>
 
@@ -41,7 +41,7 @@ The example code is in Arduino .ino format (text).  A free version of the Arduin
 ## Distribution License  
 
 License:
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Programmable Voltage Reference</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/uChip/VoltageReferenceProgrammable" property="cc:attributionName" rel="cc:attributionURL">C.Schnarel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">pi-top Glimmer</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/uChip/pi-top_Glimmer" property="cc:attributionName" rel="cc:attributionURL">C.Schnarel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
   
 
 
