@@ -1,10 +1,10 @@
 pi-top_Glimmer  
 ==============
 
-<img src="https://raw.githubusercontent.com/uChip/VoltageReferenceProgrammable/master/4000mV.jpg" alt="Accessory board for pi-top laptop or pi-topCEED" height="260" width="390">  
+<img src="https://github.com/uChip/pi-top_Glimmer/blob/master/pi-top_Glimmer_front.png" alt="Accessory board for pi-top laptop or pi-topCEED" height="308" width="365">  
 This repository contains the design files and write-up for pi-top_Glimmer.  
 
-The pi-top Glimmer is an accessory board for the <a rel="pi-topCEED" href="https://pi-top.com/product/ceed">.  It also fits the pi-top laptop.  The board reconstitutes the Raspberry Pi GPIO connector. Unlike the <a rel="pi-topPROTO" href="https://pi-top.com/buy/addon"> the Glimmer places the connector optimally for connecting the <a rel="T-Cobbler Plus - GPIO Breakout" href="https://www.adafruit.com/product/2028"> or the <a rel="Pi Wedge" href="https://www.sparkfun.com/products/13717">
+The pi-top Glimmer is an accessory board for the <a rel="pi-topCEED" href="https://pi-top.com/product/ceed">.  It also fits the pi-top laptop.  The board reconstitutes the Raspberry Pi GPIO connector. Unlike the <a rel="pi-topPROTO" href="https://pi-top.com/buy/addon"> the Glimmer places the connector optimally for connecting the <a rel="T-Cobbler Plus - GPIO Breakout" href="https://www.adafruit.com/product/2028"> or the <a rel="Pi Wedge" href="https://www.sparkfun.com/products/13717">.
 
 <picture>
 
