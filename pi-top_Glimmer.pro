@@ -1,4 +1,4 @@
-update=6/22/2017 8:12:09 AM
+update=6/26/2017 8:13:04 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=C:/Users/Chip/Documents/KiCad_Workspace/libraries/ChipsParts
@@ -62,13 +72,4 @@ LibName30=C:/Users/Chip/Documents/KiCad_Workspace/libraries/ChipsParts/74lv164
 LibName31=C:/Users/Chip/Documents/KiCad_Workspace/libraries/ChipsParts/dmmt5401
 LibName32=dmmt5401
 LibName33=7215
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName34=SolderJumpers

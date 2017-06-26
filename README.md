@@ -1,7 +1,8 @@
 pi-top_Glimmer  
 ==============
 
-<img src="https://github.com/uChip/pi-top_Glimmer/blob/master/pi-top_Glimmer_front.png" alt="Accessory board for pi-top laptop or pi-topCEED" height="308" width="365">  
+<img src="https://github.com/uChip/pi-top_Glimmer/blob/master/pi-top_Glimmer_front.png" alt="Accessory board for pi-top laptop or pi-topCEED" height="315" width="365">  
+
 NOTE: This project is a work in progress and is subject to change.  See the Status section for recent changes.  
 
 This repository contains the design files and write-up for pi-top_Glimmer.  
@@ -14,11 +15,9 @@ The pi-top Glimmer is an accessory board for the [pi-topCEED](https://pi-top.com
 
 The board includes support for an IR Receiver (TSOP38238 or similar) for IR remote control of the pi-top.  An on board ATmega328p (programmable Arduino style) monitors the Raw, 5V and 3.3V voltage levels of the pi-top power supply to help detect if the supply is overloaded.  
 
-The pi-top Glimmer passes the accessory buss through to the other end of the board so that the pi-topSPEAKER or other accessories can be plugged in.  An effort has been made to use a minimum of Raspberry Pi GPIO resources so that as many HATs as possible will still work.  The pi-top HUB board commits GPIO's 7, 9,10 & 11 as the SPI buss with HUB board select on GPIO 7 (CE1_N).  To this the pi-top Glimmer uses GPIOs 2 & 3 as the I2C buss (sharable with other boards) and resides at I2C address 110.  The following are optionally connected via solder jumpers.
-* IR Receiver to GPIO 24 (pin 18)
-* ATMega serial to RPi GPIO Serial Console (GPIOS 14 & 15) 
+The pi-top Glimmer passes the accessory buss through to the other end of the board so that the pi-topSPEAKER or other accessories can be plugged in.  An effort has been made to use a minimum of Raspberry Pi GPIO resources so that as many HATs as possible will still work.  The pi-top HUB board commits GPIO's 7, 9,10 & 11 as the SPI buss with HUB board select on GPIO 7 (CE1_N).  To this the pi-top Glimmer adds the use of GPIOs 2 & 3 as the I2C buss (sharable with other boards) and resides at I2C address 110.  The IR Receiver is optionally connected via solder jumper to GPIO 24 (pin 18).  
 
-Finally, the board includes an 8x8 LED (single color on/off) array that is refreshed from the Arduino and commanded from the pi-top's Raspberry Pi.  
+Finally, the board includes an 8x8 LED (single color, on/off) array that is refreshed from the Arduino and commanded from the pi-top's Raspberry Pi.  
 
 The software folder contains a "sketch" that is source code for the Arduino which can be changed and updated from the pi-top.  
 

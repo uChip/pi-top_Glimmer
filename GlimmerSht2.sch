@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:74lv164
 LIBS:dmmt5401
 LIBS:7215
+LIBS:SolderJumpers
 LIBS:pi-top_Glimmer-cache
 EELAYER 26 0
 EELAYER END
@@ -230,18 +231,7 @@ F 3 "" H 8600 2100 50  0001 C CNN
 $EndComp
 Text GLabel 8600 1650 2    39   UnSpc ~ 0
 +3V3
-$Comp
-L CONN_02X01 J6
-U 1 1 59249527
-P 8900 1850
-F 0 "J6" H 8900 1950 50  0000 C CNN
-F 1 "CONN_02X01" H 8900 1750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 8900 650 50  0001 C CNN
-F 3 "" H 8900 650 50  0001 C CNN
-	1    8900 1850
-	1    0    0    -1  
-$EndComp
-Text GLabel 9150 1850 2    39   UnSpc ~ 0
+Text GLabel 9050 1850 2    39   UnSpc ~ 0
 BCM-17
 Wire Wire Line
 	8550 1850 8650 1850
@@ -634,4 +624,19 @@ Wire Wire Line
 Wire Wire Line
 	2300 3350 2300 3450
 Connection ~ 2300 3400
+Text GLabel 4250 1600 0    39   UnSpc ~ 0
+RXD_BCM-15
+$Comp
+L SPST_Jumper J6
+U 1 1 59516DEC
+P 8800 1850
+F 0 "J6" H 8800 1950 40  0000 C CNN
+F 1 "SPST_Jumper" H 8850 1750 40  0000 C CNN
+F 2 "SolderJumpers:SPST_Jumper" H 8800 1850 60  0001 C CNN
+F 3 "" H 8800 1850 60  0001 C CNN
+	1    8800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1850 8950 1850
 $EndSCHEMATC

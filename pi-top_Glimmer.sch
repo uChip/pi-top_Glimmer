@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:74lv164
 LIBS:dmmt5401
 LIBS:7215
+LIBS:SolderJumpers
 LIBS:pi-top_Glimmer-cache
 EELAYER 26 0
 EELAYER END
@@ -47,7 +48,7 @@ Comment3 "Visual Distraction, Voltage Monitor, IR Receiver"
 Comment4 "pi-top Accessory Buss Board"
 $EndDescr
 $Sheet
-S 1000 6950 600  650 
+S 1350 6750 600  650 
 U 592048E0
 F0 "Sheet2" 60
 F1 "GlimmerSht2.sch" 60
@@ -258,9 +259,9 @@ F 3 "" H 1250 2750 50  0001 C CNN
 	1    1250 2750
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1450 2800 2    39   Output ~ 0
+Text GLabel 1450 2800 2    39   UnSpc ~ 0
 AVR_RXI
-Text GLabel 1450 2900 2    39   Input ~ 0
+Text GLabel 1450 2900 2    39   UnSpc ~ 0
 AVR_TXO
 Text GLabel 1450 3000 2    39   UnSpc ~ 0
 DTR
@@ -291,9 +292,9 @@ AVR_SPI
 Wire Wire Line
 	6100 2000 6100 2500
 Connection ~ 6100 2350
-Text GLabel 5550 2600 2    39   Output ~ 0
+Text GLabel 5550 2600 2    39   UnSpc ~ 0
 AVR_TXO
-Text GLabel 5550 2500 2    39   Input ~ 0
+Text GLabel 5550 2500 2    39   UnSpc ~ 0
 AVR_RXI
 $Comp
 L C C3
