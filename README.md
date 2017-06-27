@@ -28,7 +28,7 @@ I did it as a one off, but it seems to have some utility for classroom scenarios
 ## Order PCBs  
 
 You can order this PCB directly from OSH Park.  Click on the following link.  
-  * pi-top Glimmer - https://oshpark.com/shared_projects/aFUNW4O5  
+  * pi-top Glimmer - https://oshpark.com/shared_projects/x6jgBiCp  
 
 <img src="https://github.com/uChip/pi-top_Glimmer/blob/master/Top.png" alt="PCB Top" height="431" width="500">  
 
